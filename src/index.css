@@ -1,0 +1,126 @@
+/* src/index.css */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #3a3a3a;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.profile-card {
+  background-color: #fff;
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid #e0e0e0;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border: 2px solid #3a3a3a;
+}
+
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  margin: 20px;
+}
+
+input,
+select,
+button {
+  width: 80%;
+  margin: 10px 0;
+  padding: 12px;
+  font-size: 1rem;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+}
+
+input:focus,
+select:focus {
+  border-color: #3a88e2;
+  outline: none;
+}
+
+button {
+  background-color: #3a88e2;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2a6eb2;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #3a3a3a;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 8px 0;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+button:disabled:hover {
+  background-color: #ccc;
+}
+
+select {
+  background-color: #f7f7f7;
+  border: 2px solid #ddd;
+}
+
+select:focus {
+  border-color: #3a88e2;
+}
+
+button {
+  margin-top: 10px;
+}
